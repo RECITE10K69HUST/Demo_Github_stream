@@ -12,11 +12,7 @@ def exercise3():
     list_of_s = s.split()
     s = ' '.join(list_of_s)
     print(s)
-    
-
-    
-
-                
+                   
 
 def exercise7():
     n = int(input("Enter number of students: "))
