@@ -1,12 +1,3 @@
-
-def exercise2():
-    s = str(input("Enter your Snake case string: "))
-    cutting = s.split('_')
-    print(cutting)
-    capitalized_words = [word.capitalize() for word in cutting]
-    s = ''.join(capitalized_words)
-    print(s)
-    
 def exercise3():
     s = str(input("Enter your string: "))
     list_of_s = s.split()
