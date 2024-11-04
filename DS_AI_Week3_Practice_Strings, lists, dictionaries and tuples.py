@@ -15,17 +15,7 @@ def exercise3():
     
 
     
-def exercise5():
-    your_list = list(map(int, input("Enter your list: ").split()))
-    def remove_duplicates(l):
-        l_clone = l[:]
-        count = 0
-        for i in range (1,len(l)):
-            if l[i] == l[i-1]:
-                del l_clone[i-count]
-                count += 1
-        return l_clone
-    print(remove_duplicates(your_list))
+
                 
 def exercise6():
     temp = input("Enter your 2 dimensions: ").split(' ')
