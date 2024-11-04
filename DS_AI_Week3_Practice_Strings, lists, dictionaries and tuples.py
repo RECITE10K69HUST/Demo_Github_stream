@@ -11,6 +11,8 @@ def exercise3():
     s = str(input("Enter your string: "))
     list_of_s = s.split()
     s = ' '.join(list_of_s)
+    a= "Truong cuteo"
+    print(a)
     print(s)
                    
 
