@@ -1,15 +1,4 @@
-def exercise1():
-    s = str(input("Enter your string: "))
-    reversed_s = s[::-1]
-    result = ''
-    for i in range (len(reversed_s)):
-        if i%2 != 0:
-            pass
-        else:
-            result =  result + reversed_s[i]
-    s = result.capitalize()
-    print(s)
-    
+
 def exercise2():
     s = str(input("Enter your Snake case string: "))
     cutting = s.split('_')
@@ -24,23 +13,7 @@ def exercise3():
     s = ' '.join(list_of_s)
     print(s)
     
-def exercise4():
-    s = str(input("Enter your string: "))
-    real = ['b','d','i','o','p','q','v','w','x'] 
-    unreal = ['d','b','i','o','q','p','v','w','x']
-    def reverse(n):
-        for i in range (len(real)):
-            if n == real[i]:
-                return unreal[i]
-    def mirror(s):
-        result = ''
-        for i in range (len(s)):
-            if s[i] not in real:
-                return 'NOT POSSIBLE'
-            else:
-                result = reverse(s[i]) + result
-        return result
-    print(mirror(s))    
+
     
 def exercise5():
     your_list = list(map(int, input("Enter your list: ").split()))
