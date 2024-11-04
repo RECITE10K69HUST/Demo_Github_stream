@@ -13,6 +13,10 @@ def exercise3():
     s = ' '.join(list_of_s)
     a = "lee ank gay"
     print(a)
+    b= "Truong cuteo"
+    print(b)
+    print(s)
+
                    
 
 def exercise7():
