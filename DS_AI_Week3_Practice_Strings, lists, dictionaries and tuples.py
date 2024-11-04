@@ -11,7 +11,8 @@ def exercise3():
     s = str(input("Enter your string: "))
     list_of_s = s.split()
     s = ' '.join(list_of_s)
-    print(s)
+    a = "lee ank gay"
+    print(a)
                    
 
 def exercise7():
