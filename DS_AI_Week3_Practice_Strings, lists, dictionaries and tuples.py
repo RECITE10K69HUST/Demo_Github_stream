@@ -17,48 +17,7 @@ def exercise3():
     
 
                 
-def exercise6():
-    temp = input("Enter your 2 dimensions: ").split(' ')
-    m, n = int(temp[0]), int(temp[1])
 
-    a = []
-    b = []
-    c = []
-
-    for i in range(m):
-        a.append(input(f"Enter your {n} entries in row {i+1} of matrix a: ").split(' '))
-    for i in range(m):
-        b.append(input(f"Enter your {n} entries in row {i+1} of matrix b: ").split(' '))  
-    for i in range(m):
-        c.append(list())
-    for i in range (m):
-        for k in range (n):
-            c[i].append(int(a[i][k])+int(b[i][k]))
-    print(c)
-    for i in range(m):
-        for k in range(n-1):
-            print(c[i][k], end = ' ')
-        print(c[i][n-1])
-        
-    def list_comprehension_solution():
-        temp = input().split(' ')
-        m, n = int(temp[0]), int(temp[1])
-
-        a = []
-        b = []
-
-        for i in range(m):
-            a.append(input().split(' '))
-        for i in range(m):
-            b.append(input().split(' '))
-
-        c = [[int(a[i][k])+int(b[i][k]) for k in range(n)] for i in range(m)]
-
-        for i in range(m):
-            for k in range(n-1):
-                print(c[i][k], end = ' ')
-            print(c[i][n-1])
-    
 def exercise7():
     n = int(input("Enter number of students: "))
     l_input = list()
